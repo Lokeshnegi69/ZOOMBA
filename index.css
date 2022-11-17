@@ -18,6 +18,7 @@ body {
 }
 
 .nav {
+	z-index: 1000;
   	background-color: #222222;
   	left: 0;
   	position: fixed;
@@ -80,7 +81,7 @@ body {
   	margin-bottom: 20px;
   	position: relative;
   	text-align: center;
- 	z-index: -2;
+ 	/* z-index: -2; */
 }
 .img{
     width: 9000px;
@@ -165,17 +166,63 @@ body {
 }
 .check-out{
 	color: black;
-    padding-right: 6rem;
+    padding-right: 5rem;
 }
 .Guest{
 	color: black;
-    padding-right: 6rem;
+    padding-right: 7rem;
 
 }
 .place{
 	color: black ;
-	paddin-right: 6rem;
+
 	position: relative;
 	left : -1.7rem;
 }
+.container2{
+	padding: 5px;
 
+}
+.zero{
+	font-size: 49px;
+	margin-left: 2rem;
+	margin-right: 2rem;
+
+}
+/* .blog{
+	height: 20rem;
+	width: 18rem;
+	border: 2px solid black;
+	padding-left: 0px;
+    margin: 15px;	
+}
+.one{
+	width: 100%;
+	height: auto;
+	display: flex;
+	justify-content: space-between;
+}
+.Benzcontent{
+	margin-left: 2rem;
+
+	padding: 10px;
+}
+.person{
+	height: 54px;
+} */
+.testimonials{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	width: 100%;
+}
+.testimonials-headings{
+	letter-spacing: 1px;
+	margin: 30px 0px;
+	padding: 10px 20px;
+	display: flex;
+	flex-direction: column;
+	justify-content:center;
+	align-items:center;
+}
