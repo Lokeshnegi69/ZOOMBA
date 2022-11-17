@@ -151,7 +151,7 @@ body {
 .search-bar form input{
 	padding: 8px;
 }
-.location-input{
+.search-bar location-input{
 	flex: 1;
 }
 .search-bar form label{
