@@ -162,7 +162,7 @@ body {
 }
 
 select{
-    width: 120px;
+    width: 140px;
     outline: none;
     border: 1px solid #fff;
     padding: 1rem;
@@ -294,7 +294,7 @@ select:hover{
 }
 .imo{
 	margin-bottom: -18px;
-    margin-left: 37px;
+    margin-left: -3px;
     margin-right: -120px;
     padding: 4px;
 
@@ -694,12 +694,4 @@ select:hover{
 	  width: 100%;
 	}
   }
-
-
-
-
-
-
-
-
 
