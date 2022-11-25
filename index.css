@@ -5,6 +5,7 @@
   margin: 0;
   padding: 0;
   -webkit-tap-highlight-color: transparent;
+  scroll-behavior: smooth;
 }
 
 
@@ -240,6 +241,7 @@ select:hover{
     margin-left: -115px;
     margin-right: -120px;
     padding: 4px;
+	margin-top: -7px;
 
 }
 .search-bar form input{
