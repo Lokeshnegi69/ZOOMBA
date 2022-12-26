@@ -664,9 +664,9 @@ body {
     .footer {
         width: 100%;
         position: relative;
-        height: auto;
+        height: 400px;
         background-color: #070617;
-        width: 100%;
+    
         overflow: hidden;
         
       }
